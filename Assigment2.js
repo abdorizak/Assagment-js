@@ -4,29 +4,29 @@
     Convert the object to Array.
 */
 
-// const Food = {
-//     FoodName: "Bariis",
-//     quantity: 10,
-//     price: 20
-// };
+const Food = {
+    FoodName: "Bariis",
+    quantity: 10,
+    price: 20
+};
 
-// using delete keyword
-// delete Food.quantity
-// console.log(Food)
+using delete keyword
+delete Food.quantity
+console.log(Food)
 
 // or use keyword new
 
-// const SomaliFood = new Object();
+const SomaliFood = new Object();
 
-// SomaliFood.fName = "canjeero";
-// SomaliFood.rate = "⭐️⭐️⭐️⭐️"
+SomaliFood.fName = "canjeero";
+SomaliFood.rate = "⭐️⭐️⭐️⭐️"
 
-// console.log(SomaliFood);
+console.log(SomaliFood);
 
 // convertToArray
-//const convertToArray = Object.keys(Food) // also you can use Object.value it converts the as this ['bariis',10,20]
-// const convertToArray = Object.values(Food)
-// console.log(convertToArray)
+const convertToArray = Object.keys(Food) // also you can use Object.value it converts the as this ['bariis',10,20]
+const convertToArray = Object.values(Food)
+console.log(convertToArray)
 
 /*
     Q2: Create object constructor
@@ -37,45 +37,45 @@
     Call the age method.
 */
 
-// function Person(firstName, lastName, yearBorn) {
-//   this.firstName = firstName;
-//   this.lastName = lastName;
-//   this.yearBorn = yearBorn;
-//   this.age = function () {
-//     console.log("Your age is:", 2021 - yearBorn);
-//   };
-// }
+function Person(firstName, lastName, yearBorn) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.yearBorn = yearBorn;
+  this.age = function () {
+    console.log("Your age is:", 2021 - yearBorn);
+  };
+}
 
-// let cali = new Person("cali", "axmed", 1998);
-// cali.age();
-// console.log(cali);
+let cali = new Person("cali", "axmed", 1998);
+cali.age();
+console.log(cali);
 
 // Q3: Create a function expression and store it in a variable
 
-// const x = function (a,b) { return a + b }
+const x = function (a,b) { return a + b }
 
-// console.log(x(1,2));
+console.log(x(1,2));
 
 // Q4: Create a self-invoking function that prints out something
 
-// (function () {
-//   console.log("This is a self-invoking function");
-// })();
+(function () {
+  console.log("This is a self-invoking function");
+})();
 
 // Q5: Create an arrow function and store it in a variable
 
-// let sum = (x, y) => {
-//   return x + y;
-// };
+let sum = (x, y) => {
+  return x + y;
+};
 
 // console.log(sum(1,2));
 
 // Q6: Declare a function that takes (a,b)
 
-// function mult(a,b=5){
-//     return a*b
-// }
-// console.log(mult(3))
+function mult(a,b=5){
+    return a*b
+}
+console.log(mult(3))
 
 // Q7: Create a class called “Vehicle”
 
