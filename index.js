@@ -135,5 +135,5 @@ function throwError() {
 try {
   throwError();
 } catch (error) {
-  console.error("Error");
+  console.error(error);
 }
