@@ -10,7 +10,7 @@ const Food = {
     price: 20
 };
 
-using delete keyword
+// using delete keyword
 delete Food.quantity
 console.log(Food)
 
